@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(58, 6, 107);
+}
+
+.container{
+    border: 2px solid wheat;
+    height: 804px;
+    width: 804px;
+    margin: 2rem auto;
+    position: relative;
+}
+
+.mountain{
+    height: 800px;
+    width: 800px;
+}
+
+.box_one{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 250px;
+    top: 250px;
+    animation-name: runningBox_one;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+/*
+max left: 250px; max top: 300px;
+*/
+
+@keyframes runningBox_one{
+    5% {left: 0px; top: 0px;}
+    10% {left: 0px; top: 0px;}
+    10% {left: 0px; top: 0px;}
+    15% {left: 0px; top: 0px;}
+    20% {left: 0px; top: 0px;}
+    25% {left: 0px; top: 0px;}
+    30% {left: 0px; top: 0px;}
+    35% {left: 0px; top: 0px;}
+    40% {left: 0px; top: 0px;}
+    45% {left: 0px; top: 0px;}
+    50% {left: 0px; top: 0px;}
+    55% {left: 0px; top: 0px;}
+    60% {left: 0px; top: 0px;}
+    65% {left: 0px; top: 0px;}
+    70% {left: 0px; top: 0px;}
+    75% {left: 0px; top: 0px;}
+    80% {left: 0px; top: 0px;}
+    85% {left: 0px; top: 0px;}
+    90% {left: 0px; top: 0px;}
+    95% {left: 0px; top: 0px;}
+    100% {left: 0px; top: 0px;}
+}
+
+.Cloud{
+    height: 200px;
+    width: 225px;
+}
+
+.box_two{
+
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 350px;
+    top: 350px;
+    animation-name: runningBox_two;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+/*
+min left: 350px; max top: 300px;
+*/
+
+@keyframes runningBox_two{
+    5% {left: 550px; top: 50px;}
+    10% {left: 550px; top: 200px;}
+    10% {left: 550px; top: 25px;}
+    15% {left: 550px; top: 45px;}
+    20% {left: 550px; top: 77px;}
+    25% {left: 550px; top: 11px;}
+    30% {left: 550px; top: 90px;}
+    35% {left: 550px; top: 154px;}
+    40% {left: 550px; top: 0px;}
+    45% {left: 550px; top: 0px;}
+    50% {left: 550px; top: 0px;}
+    55% {left: 550px; top: 0px;}
+    60% {left: 550px; top: 0px;}
+    65% {left: 550px; top: 0px;}
+    70% {left: 550px; top: 0px;}
+    75% {left: 550px; top: 0px;}
+    80% {left: 550px; top: 0px;}
+    85% {left: 550px; top: 0px;}
+    90% {left: 550px; top: 0px;}
+    95% {left: 550px; top: 0px;}
+    100% {left: 550px; top: 0px;}
+}
